@@ -33,6 +33,7 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnLogIn = new System.Windows.Forms.Button();
+            this.btnOdustani = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtUsername
@@ -69,7 +70,7 @@
             // 
             // btnLogIn
             // 
-            this.btnLogIn.Location = new System.Drawing.Point(141, 101);
+            this.btnLogIn.Location = new System.Drawing.Point(116, 101);
             this.btnLogIn.Name = "btnLogIn";
             this.btnLogIn.Size = new System.Drawing.Size(75, 23);
             this.btnLogIn.TabIndex = 2;
@@ -77,11 +78,22 @@
             this.btnLogIn.UseVisualStyleBackColor = true;
             this.btnLogIn.Click += new System.EventHandler(this.btnLogIn_Click);
             // 
+            // btnOdustani
+            // 
+            this.btnOdustani.Location = new System.Drawing.Point(197, 101);
+            this.btnOdustani.Name = "btnOdustani";
+            this.btnOdustani.Size = new System.Drawing.Size(75, 23);
+            this.btnOdustani.TabIndex = 2;
+            this.btnOdustani.Text = "Odustani";
+            this.btnOdustani.UseVisualStyleBackColor = true;
+            this.btnOdustani.Click += new System.EventHandler(this.btnLogIn_Click);
+            // 
             // frmLogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 183);
+            this.Controls.Add(this.btnOdustani);
             this.Controls.Add(this.btnLogIn);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtPassword);
@@ -101,5 +113,6 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnLogIn;
+        private System.Windows.Forms.Button btnOdustani;
     }
 }
