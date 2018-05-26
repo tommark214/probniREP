@@ -16,5 +16,12 @@ namespace testnaAplikacija
         {
             InitializeComponent();
         }
+
+        private void btnLogIn_Click(object sender, EventArgs e)
+        {
+            frmGlavna novo = new frmGlavna();
+            novo.Show();
+            this.Close();
+        }
     }
 }
